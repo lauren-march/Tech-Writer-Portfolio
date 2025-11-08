@@ -1,0 +1,62 @@
+{
+  "spaces": [
+    {
+      "id": 1,
+      "name": "Urban Loft",
+      "location": "Berlin, Germany",
+      "pricePerHour": 7,
+      "capacity": 12,
+      "description": "Modern coliving space with shared kitchen and rooftop workspace."
+    },
+    {
+      "id": 2,
+      "name": "WorkHub Central",
+      "location": "Austin, USA",
+      "pricePerHour": 3,
+      "capacity": 40,
+      "description": "Downtown coworking hub with high-speed Wi-Fi and free coffee."
+    },
+    {
+      "id": 3,
+      "name": "The Nest",
+      "location": "Lisbon, Portugal",
+      "pricePerHour": 5,
+      "capacity": 20,
+      "description": "Community-driven coliving for digital nomads near the beach."
+    },
+    {
+      "id": 4,
+      "name": "The Green Desk",
+      "location": "Vancouver, Canada",
+      "pricePerHour": 10,
+      "capacity": 8,
+      "description": "Sustainable coworking space surrounded by nature."
+    }
+  ],
+  "availability": [
+    {
+      "id": 1,
+      "spaceId": 1,
+      "availableSpots": 3,
+      "date": "2025-12-10"
+    },
+    {
+      "id": 2,
+      "spaceId": 2,
+      "availableSpots": 10,
+      "date": "2025-12-10"
+    },
+    {
+      "id": 3,
+      "spaceId": 3,
+      "availableSpots": 5,
+      "date": "2025-12-10"
+    },
+    {
+      "id": 4,
+      "spaceId": 4,
+      "availableSpots": 4,
+      "date": "2025-12-10"
+    }
+  ]
+}

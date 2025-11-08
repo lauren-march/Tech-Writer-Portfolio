@@ -1,0 +1,1 @@
+json-server -w openspot-db-source.json
