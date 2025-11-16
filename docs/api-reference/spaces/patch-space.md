@@ -12,7 +12,7 @@ Partially update a coliving or coworking space. Only the fields provided in the 
 PATCH /spaces/{id}
 ```
 
-### Request Body
+### Request body
 
 Include only the fields you want to update. All fields are optional.
 
@@ -35,15 +35,11 @@ Include only the fields you want to update. All fields are optional.
 }
 ```
 
-### Available Fields
+### Parameters
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `name` | string | Name of the space |
-| `location` | string | Geographic location |
-| `pricePerHour` | number | Hourly rate for the space |
-| `capacity` | number | Maximum occupancy |
-| `description` | string | Detailed description of the space |
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `id` | number | Yes | The unique identifier of the space to modify. |
 
 ### Responses
 
@@ -53,7 +49,7 @@ Include only the fields you want to update. All fields are optional.
 | 404 | Space not found | `error` object |
 | 400 | Bad request - invalid data | `error` object |
 
-### Example Request
+### Example request
 
 #### cURL
 
@@ -83,7 +79,7 @@ curl -X PATCH http://localhost:3000/spaces/2 \
 
     ![](../media/patch-postman-example.png)
 
-### Example Response
+### Example response
 
 ```json
 {
@@ -92,7 +88,7 @@ curl -X PATCH http://localhost:3000/spaces/2 \
   "location": "Austin, USA",
   "pricePerHour": 8,
   "capacity": 40,
-  "description": "Downtown coworking hub with high-speed Wi-Fi and free coffee."
+  "description": "Downtown coworking hub with high-speed Wi-Fi and free coffee." 
 }
 ```
 
@@ -102,7 +98,7 @@ curl -X PATCH http://localhost:3000/spaces/2 \
 * All other fields remain unchanged
 * The `id` field cannot be modified
 
-### PATCH vs PUT
+#### PATCH vs PUT
 
 | Method | Use Case | Example |
 |--------|----------|---------|

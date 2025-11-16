@@ -12,7 +12,7 @@ Replace an entire coliving or coworking space. All fields must be provided in th
 PUT /spaces/{id}
 ```
 
-### Request Body
+### Request body
 
 All fields (except `id`) must be included in the request body to replace the entire resource.
 
@@ -37,6 +37,10 @@ All fields (except `id`) must be included in the request body to replace the ent
   "description": "Newly renovated community-driven coliving for digital nomads with ocean views."
 }
 ```
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `id` | number | Yes | The unique identifier of the space to modify. |
 
 ### Responses
 

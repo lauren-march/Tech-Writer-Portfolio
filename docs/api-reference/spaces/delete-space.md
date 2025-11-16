@@ -12,9 +12,15 @@ Permanently delete a coliving or coworking space from the database.
 DELETE /spaces/{id}
 ```
 
-### Request Body
+### Request body
 
 None.
+
+### Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `id` | number | Yes | The unique identifier of the space to delete |
 
 ### Responses
 
@@ -23,7 +29,7 @@ None.
 | 200 | Space deleted successfully | `success` - empty object |
 | 404 | Space not found | `error` object |
 
-### Example Request
+### Example request
 
 #### cURL
 
@@ -40,7 +46,7 @@ curl -X DELETE http://localhost:3000/spaces/3
 
     ![](../media/delete-postman-example.png)
 
-### Example Response
+### Example response
 
 ```json
 {}
