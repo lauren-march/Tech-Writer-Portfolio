@@ -28,7 +28,7 @@ last_updated: "2025-09-03"
 
 Use the `GET` method to access `/spaces` resource data.
 
-## GET all spaces
+## Retrieve all spaces
 
 Retrieve all coliving and coworking spaces.
 
@@ -38,7 +38,11 @@ Retrieve all coliving and coworking spaces.
 GET /spaces
 ```
 
-### Resource body
+### Request body
+
+None
+
+### Parameters
 
 None
 
@@ -49,7 +53,7 @@ None
 | 200 | List of all spaces | `spaces[]` |
 | 404 | Space not found | `error` object |
 
-### Example Request
+### Example request
 
 #### cURL
 
@@ -63,7 +67,7 @@ curl GET http://localhost:3000/spaces
 1. Enter URL: `http://localhost:3000/spaces`
 1. Click **Send**
 
-### Example Response
+### Example response
 
 ```json
 {
@@ -100,7 +104,7 @@ curl GET http://localhost:3000/spaces
     }
 ```
 
-## GET spaces by ID
+## Retrieve a space by ID
 
 Retrieve a single coliving and coworking space by ID.
 
@@ -110,9 +114,15 @@ Retrieve a single coliving and coworking space by ID.
 GET /spaces/{id}
 ```
 
-### Resource body
+### Request body
 
 None
+
+### Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `id` | number | Yes | The unique identifier of the space to retrieve |
 
 ### Responses
 
@@ -121,7 +131,7 @@ None
 | 200 | List of a single space by its ID | `spaces` object |
 | 404 | Space not found | `error` object |
 
-### Example Request
+### Example request
 
 #### cURL
 
@@ -135,7 +145,7 @@ curl GET http://localhost:3000/spaces/2
 1. Enter URL: `http://localhost:3000/spaces/2`
 1. Click **Send**
 
-### Example Response
+### Example response
 
 ```json
 {
@@ -148,7 +158,7 @@ curl GET http://localhost:3000/spaces/2
 }
 ```
 
-## GET spaces by location
+## Retrieve spaces by location
 
 Retrieve coliving and coworking spaces by location.
 
@@ -164,21 +174,25 @@ GET /spaces?location=<CityName>,<CountryName>
 GET /spaces?location_like=<PartialLocation>
 ```
 
-### Resource body
+### Request body
 
 None
 
-#### Exact vs partial
+### Parameters
 
-* Use `location` for an exact match, e.g. Berlin,Germany.
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `location` | string | Yes | Exact location match. Format: "City, Country" (e.g., "Lisbon, Portugal") |
+| `location_like` | string | No* | Partial location match. Searches for any location containing the string (e.g., "Lisbon" or "Portugal") |
 
-* Use `location_like` for a partial match, such as "Ber" or "Germany".
+> [!NOTE]  
+> \*`location_like` is not required for this query, but offers a bit more flexibility.
 
 ### Responses
 
 | HTTP Code | Description                        | Schema                |
 |-----------|------------------------------------|-----------------------|
-| 200       | List of spaces matching location   | `spaces[]`             |
+| 200       | List of spaces matching location   | `spaces[]`            |
 | 404       | No matching spaces found           | `error` object        |
 
 ### Example Request
