@@ -1,3 +1,11 @@
+---
+title: OpenSpot API Documentation
+description: API documentation for coliving and coworking space management
+tags:
+  - home
+  - getting-started
+---
+
 # OpenSpot API
 
 *Corporate perks, without the stuffy corporate office.*

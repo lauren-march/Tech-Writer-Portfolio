@@ -1,0 +1,76 @@
+site_name: OpenSpot API Documentation
+repo_name: lauren-march/openspot-api
+repo_url: https://github.com/lauren-march/openspot-api
+
+nav:
+  - Home: index.md
+  - Overview:
+      - Quick Start Guide: overview/quick-start-guide.md
+      - Setting Up Your Server: overview/setting-up-your-server.md
+  - Tutorials:
+      - Add a New Space: tutorials/add-a-new-space.md
+      - Check Availability: tutorials/check-availability.md
+      - Update Availability: tutorials/update-availability.md
+  - API Reference:
+      - API Reference Guide: api-reference/api-reference-guide.md
+      - Spaces:
+          - Spaces Overview: api-reference/spaces/spaces.md
+          - GET /spaces: api-reference/spaces/get-space.md
+          - POST /spaces: api-reference/spaces/post-space.md
+          - PATCH /spaces: api-reference/spaces/patch-space.md
+          - PUT /spaces: api-reference/spaces/put-space.md
+          - DELETE /spaces: api-reference/spaces/delete-space.md
+      - Availability:
+          - Availability Overview: api-reference/availability/availability.md
+          - GET /availability: api-reference/availability/get-availability.md
+          - POST /availability: api-reference/availability/post-availability.md
+          - PATCH /availability: api-reference/availability/patch-availability.md
+          - PUT /availability: api-reference/availability/put-availability.md
+          - DELETE /availability: api-reference/availability/delete-availability.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - tags
+
+theme:
+  name: material
+  logo: media/openspot-api-logo.png
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
