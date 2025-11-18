@@ -1,4 +1,13 @@
-# PUT /spaces
+---
+title: PUT /spaces - Replace a Space
+description: Completely replace an existing space resource
+tags:
+  - api
+  - spaces
+  - PUT
+  - replace
+  - update
+---
 
 Use the `PUT` method to completely replace an existing space resource.
 

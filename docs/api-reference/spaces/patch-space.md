@@ -1,4 +1,12 @@
-# PATCH /spaces
+---
+title: PATCH /spaces - Update a Space
+description: Partially update an existing space resource
+tags:
+  - api
+  - spaces
+  - PATCH
+  - update
+---
 
 Use the `PATCH` method to partially update an existing space resource.
 

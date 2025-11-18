@@ -1,4 +1,12 @@
-# POST /spaces
+---
+title: POST /spaces - Create a New Space
+description: Create a new coliving or coworking space
+tags:
+  - api
+  - spaces
+  - POST
+  - create
+---
 
 Use the `POST` method to add a new `/spaces` resource.
 

@@ -1,30 +1,13 @@
 ---
-# markdownlint-disable
-# vale  off
-layout: default
-parent: user resource
-nav_order: 1
-# tags used by AI files
-description: GET all `user` resources from the service
+title: GET /spaces - Retrieve Spaces
+description: Retrieve all coliving and coworking spaces or filter by location
 tags:
-    - api
-categories:
-    - api-reference
-ai_relevance: high
-importance: 7
-prerequisites:
-    - /api/user
-related_pages: []
-examples: []
-api_endpoints: 
-    - GET /users
-version: "v1.0"
-last_updated: "2025-09-03"
-# vale  on
-# markdownlint-enable
+  - api
+  - spaces
+  - GET
+  - retrieve
+  - filter
 ---
-
-# GET /spaces
 
 Use the `GET` method to access `/spaces` resource data.
 

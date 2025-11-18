@@ -1,4 +1,12 @@
-# Overview
+---
+title: Spaces Resource Overview
+description: Overview of the /spaces resource for managing coliving and coworking spaces
+tags:
+  - api
+  - spaces
+  - resource
+  - overview
+---
 
 The `spaces` resource represents coliving and coworking spaces available in the OpenSpot API. Each space contains information about its location, pricing, capacity, and a description of its amenities.
 
@@ -19,7 +27,7 @@ A `spaces` resource includes the following properties:
 
 The `spaces` resource supports the following operations:
 
-- **Retrieve** all spaces or filter by location
+- **Retrieve** all spaces or filter by ID or location
 - **Create** new spaces
 - **Update** existing spaces (partial or full)
 - **Delete** spaces

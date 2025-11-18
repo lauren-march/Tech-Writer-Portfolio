@@ -1,4 +1,12 @@
-# DELETE /spaces endpoint reference
+---
+title: DELETE /spaces - Delete a Space
+description: Permanently delete a space from the database
+tags:
+  - api
+  - spaces
+  - DELETE
+  - remove
+---
 
 Use the `DELETE` method to remove an existing space resource.
 
