@@ -60,7 +60,7 @@ None.
 
 #### cURL
 
-```bash
+```shell
 curl -X POST http://localhost:3000/spaces \
   -H "Content-Type: application/json" \
   -d '{
