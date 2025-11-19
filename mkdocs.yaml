@@ -53,7 +53,7 @@ plugins:
 
 theme:
   name: material
-  logo: media/openspot-api-logo.png
+  logo: ./media/openspot-api-logo.png
   language: en
   features:
     - navigation.tabs
@@ -67,15 +67,15 @@ theme:
   palette:
     # Light mode
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: light green
+      accent: amber
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     # Dark mode
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: deep purple
+      accent: light green
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
