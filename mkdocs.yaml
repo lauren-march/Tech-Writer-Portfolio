@@ -53,7 +53,7 @@ plugins:
 
 theme:
   name: material
-  logo: ./media/openspot-api-logo.png
+  logo: assets/images/openspot-api-logo.png
   language: en
   features:
     - navigation.tabs
