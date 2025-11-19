@@ -51,6 +51,9 @@ plugins:
   - search
   - tags
 
+extra_css:
+  - stylesheets/extra.css
+
 theme:
   name: material
   logo: assets/images/openspot-api-logo.png
