@@ -70,7 +70,7 @@ theme:
   palette:
     # Light mode
     - scheme: default
-      primary: light green
+      primary: deep purple
       accent: amber
       toggle:
         icon: material/weather-night
@@ -78,7 +78,7 @@ theme:
     # Dark mode
     - scheme: slate
       primary: deep purple
-      accent: light green
+      accent: amber
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
