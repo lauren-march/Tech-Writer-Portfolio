@@ -8,7 +8,9 @@ tags:
 
 # OpenSpot API
 
-*Corporate perks, without the stuffy corporate office.*
+![](../docs/overview/media/openspot-api-hero-banner.png)
+
+***Corporate perks, without the stuffy corporate office.***
 
 The OpenSpot API lets developers access real-time data for coworking and coliving paces around the world. You can retrieve details like location, pricing, capacity, and current availability to help users find and book flexible workspaces anywhere. Designed for seamless integration, OpenSpot makes it easy to power the future of remote work and living.
 
