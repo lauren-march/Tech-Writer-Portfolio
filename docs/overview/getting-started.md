@@ -6,6 +6,7 @@ tags:
   - quickstart
   - tutorial
 ---
+![](../overview/media/openspot-api-hero-banner.png)
 
 When working with the OpenSpot API locally, you will use **Node.js** and **JSON Server** to create a fully functional mock REST API powered by your OpenSpot JSON database file.
 
