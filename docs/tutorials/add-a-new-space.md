@@ -30,7 +30,7 @@ Follow the steps below to create a new space.
 
 1. Enter the following URL into the URL field:
 
-    `http://localhost:3000/availability/`
+    `http://localhost:3000/spaces`
 
 1. Select the **Body** tab and select the **raw** radio button.
 
@@ -51,3 +51,7 @@ Follow the steps below to create a new space.
     ![](../tutorials/media/postman-example.png)
 
 You have now successfully added a new space to the OpenSpot API.
+
+## Additional resources
+
+[POST /spaces](../api-reference/spaces/post-space.md)
