@@ -10,8 +10,7 @@ use_directory_urls: true
 nav:
   - Home: index.md
   - Overview:
-      - Quick Start Guide: overview/quick-start-guide.md
-      - Setting Up Your Server: overview/setting-up-your-server.md
+      - Getting Started: overview/getting-started.md
   - Tutorials:
       - Add a New Space: tutorials/add-a-new-space.md
       - Check Availability: tutorials/check-availability.md
