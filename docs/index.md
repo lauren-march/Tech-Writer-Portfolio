@@ -12,23 +12,36 @@ tags:
 
 The OpenSpot API lets developers access real-time data for coworking and coliving paces around the world. You can retrieve details like location, pricing, capacity, and current availability to help users find and book flexible workspaces anywhere. Designed for seamless integration, OpenSpot makes it easy to power the future of remote work and living.
 
+This mock API behaves like a real backend service, allowing you to test endpoints, build your frontend, and practice making HTTP requests—even though the real OpenSpot backend does not exist yet.
+
 ## Helpful resources
 
-* [Setting up your json-server](docs/overview/setting-up-your-server.md) - Before you can start using the OpenSpot API, you’ll need to run your JSON Server so you can make requests using tools like cURL or Postman.
+* **[Getting Started](overview/getting-started.md)**  
+  Learn how to install Node.js, set up the JSON Server, and run your first API request.
 
-* [Quick Start Guide](docs/overview/quick-start-guide.md) - Ready to go for it? Check out our Quick Start Guide to get you integrating OpenSpot API into your solution ASAP.
+* **[Tutorials](tutorials/)**  
+  Step-by-step guides that walk you through common tasks like adding a new space or checking availability.
 
-* [OpenSpot API Reference Guide](docs/api-reference/api-reference-guide.md) - If you’ve already checked out the API or you’re an advanced user who needs a quick reference for a single resource, check out our API Reference Guide.
+* **[API Reference Guide](api-reference/api-reference-guide.md)**  
+  A complete list of resources and endpoints, ideal for quick lookup or advanced users.
 
 ## Who is this API for?
 
-The OpenSpot API is built for developers who want to integrate coliving and coworking data into their applications. This could mean you’re building a booking platform for coliving spaces in Europe, or a tool for remote teams or your small business. Whatever it is, OpenSpot gives you instant access to global workspace and housing data.
+The OpenSpot API is built for developers who want to integrate coliving and coworking data into their applications. Whether you're building:
+
+* A booking platform for coliving spaces
+
+* A tool to support remote teams or satellite offices
+
+* A workspace discovery app for freelancers or small business owners  
+
+OpenSpot gives you structured, queryable access to global workspace data.
 
 ## Common use cases
 
 * You're starting your small business, and need to separate your living space from your working space as you grow.
 
-* Your company needs a way to support its remote workers. So, you develop an app to find coworking locations available for a satellite office.
+* Your company wants to build an app that helps remote employees find coworking locations for temporary satellite offices.
 
 ## Support
 
