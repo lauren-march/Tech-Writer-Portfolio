@@ -8,7 +8,7 @@ tags:
 
 # OpenSpot API
 
-![](../docs/overview/media/openspot-api-hero-banner.png)
+![](overview/media/openspot-api-hero-banner.png)
 
 ***Corporate perks, without the stuffy corporate office.***
 
