@@ -21,7 +21,7 @@ This mock API behaves like a real backend service, allowing you to test endpoint
 * **[Getting Started](overview/getting-started.md)**  
   Learn how to install Node.js, set up the JSON Server, and run your first API request.
 
-* **[Tutorials](tutorials/)**  
+* **[Tutorials](tutorials/add-a-new-space.md)**  
   Step-by-step guides that walk you through common tasks like adding a new space or checking availability.
 
 * **[API Reference Guide](api-reference/api-reference-guide.md)**  
@@ -51,6 +51,6 @@ If you have any questions, or if you need assistance, feel free to contact our *
 
 ## Related pages
 
-* [Spaces resource](../openspot-api/docs/api-reference/spaces.md)
+* [Spaces resource](api-reference/spaces/spaces.md)
 
-* [Availability resource](../openspot-api/docs/api-reference/availablility.md)
+* [Availability resource](api-reference/availability/availability.md)

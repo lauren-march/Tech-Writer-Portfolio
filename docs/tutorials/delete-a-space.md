@@ -72,4 +72,4 @@ You have now successfully deleted a space from the OpenSpot API mock database.
 
 ## Additional resources
 
-[DELETE /spaces](delete-space.md)
+[DELETE spaces](/docs/api-reference/spaces/delete-space.md)
