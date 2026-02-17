@@ -16,6 +16,6 @@ Hello and welcome to my technical writing portfolio. Here you will find links to
 
 https://lauren-march.github.io/openspot-api/
 
-<img width="1588" height="876" alt="image" src="https://github.com/user-attachments/assets/14b95672-0da5-45d6-8faa-6d7e594bd625" />
+<img width="1588" height="876" alt="image" src="https://lauren-march.github.io/Tech-Writer-Portfolio/" />
 
 
