@@ -14,8 +14,9 @@ Hello and welcome to my technical writing portfolio. Here you will find links to
 
 ## UW Specialization in API Documentation
 
-https://lauren-march.github.io/openspot-api/
+[API Documentation Sample](https://lauren-march.github.io/Tech-Writer-Portfolio/)
 
-<img width="1588" height="876" alt="image" src="https://lauren-march.github.io/Tech-Writer-Portfolio/"/>
+<img width="1866" height="1031" alt="image" src="https://github.com/user-attachments/assets/1d55bb13-b2f3-4bba-ac83-94e32c8cf003" />
+
 
 
