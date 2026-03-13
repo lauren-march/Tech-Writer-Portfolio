@@ -4,7 +4,7 @@ Hello and welcome to my technical writing portfolio. Here you will find links to
 
 ## Adaptiva
 
-[OneSite Patch strategies user guide](https://docs.adaptiva.com/patch/get-started/strategies-v2)
+[OneSite Patch common patch configuration user guide](https://docs.adaptiva.com/patch/get-started/common-patch-configs)
 
 [Network topology contextual guide](https://docs.adaptiva.com/platform-guide/platform-management/network-topology)
 
@@ -16,7 +16,7 @@ Hello and welcome to my technical writing portfolio. Here you will find links to
 
 [API Documentation Sample](https://lauren-march.github.io/Tech-Writer-Portfolio/)
 
-<img width="1866" height="1031" alt="image" src="https://github.com/user-attachments/assets/1d55bb13-b2f3-4bba-ac83-94e32c8cf003" />
+<img width="1866" height="1031" alt="image" src="https://github.com/user-attachments/assets/1d55bb13-b2f3-4bba-ac83-94e32c8cf003"/>
 
 
 
