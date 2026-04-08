@@ -4,6 +4,8 @@ Hello and welcome to my technical writing portfolio. Here you will find links to
 
 ## Adaptiva
 
+[OneSite Aida - Adaptiva's Purpose-built AI](https://docs.adaptiva.com/platform-guide/overview/aida-overview)
+
 [OneSite Patch common patch configuration user guide](https://docs.adaptiva.com/patch/get-started/common-patch-configs)
 
 [Network topology contextual guide](https://docs.adaptiva.com/platform-guide/platform-management/network-topology)
