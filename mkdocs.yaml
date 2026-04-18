@@ -56,6 +56,7 @@ extra_css:
 
 theme:
   name: material
+  custom_dir: docs/overrides
   logo: assets/images/openspot-api-logo.png
   language: en
   features:
