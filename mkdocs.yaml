@@ -1,4 +1,5 @@
 site_name: OpenSpot API Documentation
+site_description: "REST API documentation for OpenSpot — a mock API for querying coworking and coliving space availability, built with JSON Server."
 site_url: https://lauren-march.github.io/openspot-api/
 repo_name: lauren-march/openspot-api
 repo_url: https://github.com/lauren-march/openspot-api/
@@ -50,6 +51,7 @@ markdown_extensions:
 plugins:
   - search
   - tags
+  - meta
 
 extra_css:
   - stylesheets/extra.css
