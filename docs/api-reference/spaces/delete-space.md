@@ -1,6 +1,6 @@
 ---
-title: DELETE /spaces - Delete a Space
-description: Permanently delete a space from the database
+title: Delete Spaces information using DELETE method
+description: Permanently delete a space record using the DELETE method.
 tags:
   - api
   - spaces
@@ -8,44 +8,42 @@ tags:
   - remove
 ---
 
+# DELETE /spaces
+
 Use the `DELETE` method to remove an existing space resource.
 
-## Permanently delete a space
-
-Permanently delete a coliving or coworking space from the database.
-
-### Endpoint
+## Endpoint
 
 ```shell
 DELETE /spaces/{id}
 ```
 
-### Request body
+## Request body
 
 None.
 
-### Parameters
+## Parameters
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
 | `id` | number | Yes | The unique identifier of the space to delete |
 
-### Responses
+## Responses
 
 | HTTP Code | Description | Schema |
 |-----------|-------------|--------|
 | 200 | Space deleted successfully | `success` - empty object |
 | 404 | Space not found | `error` object |
 
-### Example request
+## Example request
 
-#### cURL
+### cURL
 
 ```bash
 curl -X DELETE http://localhost:3000/spaces/3
 ```
 
-#### Postman
+### Postman
 
 1. Set method to `DELETE`
 1. Enter URL: `http://localhost:3000/spaces/3`

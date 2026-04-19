@@ -1,6 +1,6 @@
 ---
-title: POST /availability - Create Availability Record
-description: Create a new availability record for a space
+title: Create a new Availability record using the POST method
+description: Create a new availability record for desired spaces.
 tags:
   - api
   - availability
@@ -8,7 +8,9 @@ tags:
   - create
 ---
 
-Use the `POST` method to add a new `/availability` resource.
+# POST /availabiility
+
+Use the `POST` method to add a new `availability` resource.
 
 ## Create an availability record
 

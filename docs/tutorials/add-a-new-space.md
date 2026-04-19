@@ -1,12 +1,14 @@
 ---
 title: Tutorial - Add a New Space
-description: Step-by-step guide to adding a new coliving or coworking space
+description: Step-by-step guide to adding a new coliving or coworking space.
 tags:
   - tutorial
   - spaces
   - POST
   - create
 ---
+
+# How to add a new Space record in the OpenSpot API
 
 In this tutorial, you'll learn how to create a new space in the OpenSpot API JSON mock database. In order to add a new space, you'll need to use the `POST` HTTP method.
 

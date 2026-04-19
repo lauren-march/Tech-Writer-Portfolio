@@ -1,16 +1,18 @@
 ---
-title: PATCH /spaces - Update a Space
-description: Partially update an existing space resource
+title: Update a Space using the PATCH method
+description: Partially update an existing space record.
 tags:
   - api
   - spaces
   - PATCH
-  - update
+  - update record
 ---
+
+# PATCH /spaces
 
 Use the `PATCH` method to partially update an existing space resource.
 
-## Update a space
+## Update a space record
 
 Partially update a coliving or coworking space. Only the fields provided in the request body will be updated.
 

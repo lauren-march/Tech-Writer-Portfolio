@@ -1,6 +1,6 @@
 ---
-title: DELETE /availability - Delete Availability
-description: Permanently delete an availability record
+title: Delete Availability information using DELETE method
+description: Permanently delete an availability record using the DELETE method.
 tags:
   - api
   - availability
@@ -8,38 +8,36 @@ tags:
   - remove
 ---
 
-Use the `DELETE` method to remove an existing availability resource.
+# DELETE /availability
 
-## Permanently delete a availability
+Use the `DELETE` method to permanently delete an existing availability information associated with a coliving or coworking space.
 
-Permanently delete the availability information for a coliving or coworking space from the database.
-
-### Endpoint
+## Endpoint
 
 ```shell
 DELETE /availability/{id}
 ```
 
-### Request body
+## Request body
 
 None.
 
-### Parameters
+## Parameters
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
-| `id` | number | Yes | The unique identifier of the availability to delete |
+| `id`  | number | Yes | The unique identifier of the availability to delete |
 
-### Responses
+## Responses
 
 | HTTP Code | Description | Schema |
 |-----------|-------------|--------|
-| 200 | Availability deleted successfully | `success` - empty object |
-| 404 | Availability not found | `error` object |
+| 200 | Availability deleted successfully. | `success` - empty object |
+| 404 | Availability not found. | `error` object |
 
-### Example request
+## Example request
 
-#### cURL
+### cURL
 
 ```bash
 curl -X DELETE http://localhost:3000/availability/3

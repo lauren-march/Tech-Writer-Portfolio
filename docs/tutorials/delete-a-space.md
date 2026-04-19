@@ -1,12 +1,14 @@
 ---
 title: Tutorial - Remove a Space
-description: Step-by-step guide to removing a coliving or coworking space
+description: Step-by-step guide to removing a coliving or coworking space.
 tags:
   - tutorial
   - spaces
   - DELETE
   - remove
 ---
+
+# How to remove a Space record in the OpenSpot API
 
 In this tutorial, you'll learn how to remove a space object in the OpenSpot API JSON mock database. In order to remove a space, you'll need to use the `DELETE` HTTP method.
 

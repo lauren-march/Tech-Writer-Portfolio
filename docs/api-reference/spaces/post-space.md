@@ -1,12 +1,14 @@
 ---
-title: POST /spaces - Create a New Space
-description: Create a new coliving or coworking space
+title: Create a new Spaces record using the POST method
+description: Create a new coliving or coworking space.
 tags:
   - api
   - spaces
   - POST
   - create
 ---
+
+# POST /spaces
 
 Use the `POST` method to add a new `/spaces` resource.
 
