@@ -8,6 +8,8 @@ tags:
   - query
 ---
 
+# How to retrieve a Space record in the OpenSpot API by location
+
 In this tutorial, you'll learn how to find spaces by their location in the OpenSpot API JSON mock database. In order to find spaces, you'll need to use the `GET` HTTP method.
 
 The `GET` method queries the database for all instances of specified properties and returns a `spaces` array. This is useful when you need to see a full list of coworking or coliving spaces in a particular area.

@@ -1,6 +1,6 @@
 ---
-title: PUT /spaces - Replace a Space
-description: Completely replace an existing space resource
+title: Replace existing Spaces record with the PUT method
+description: Completely replace an existing spaces record
 tags:
   - api
   - spaces
@@ -8,6 +8,8 @@ tags:
   - replace
   - update
 ---
+
+# PUT /spaces
 
 Use the `PUT` method to completely replace an existing space resource.
 

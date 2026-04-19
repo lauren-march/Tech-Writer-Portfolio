@@ -1,6 +1,6 @@
 ---
-title: GET /spaces - Retrieve Spaces
-description: Retrieve all coliving and coworking spaces or filter by location
+title: Retrieve Availability object with GET method
+description: Retrieve all coliving and coworking spaces or filter by location.
 tags:
   - api
   - spaces
@@ -9,7 +9,15 @@ tags:
   - filter
 ---
 
-Use the `GET` method to access `/spaces` resource data.
+# GET /spaces
+
+Use the `GET` method to access `/spaces` resource data:
+
+* [GET /spaces](#retrieve-all-spaces) - Retrieves all records for all coliving and coworking spaces.
+
+* [GET /spaces/{id}](#retrieve-a-space-by-id) - Retrieves a single space record by specified space ID.
+
+* [GET /spaces?location=\<CityName>,\<CountryName>](#retrieve-spaces-by-location) - Retrieve coliving and coworking spaces by specified location.
 
 ## Retrieve all spaces
 

@@ -1,6 +1,6 @@
 ---
-title: PUT /availability - Replace Availability
-description: Completely replace an existing availability record
+title: Replace existing Availability record with the PUT method
+description: Completely replace an existing availability record with updated information.
 tags:
   - api
   - availability
@@ -8,6 +8,8 @@ tags:
   - replace
   - update
 ---
+
+# PUT /availability
 
 Use the `PUT` method to completely replace an existing availability resource.
 

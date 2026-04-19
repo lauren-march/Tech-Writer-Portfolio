@@ -1,19 +1,25 @@
 ---
-# markdownlint-disable
-# vale  off
-title: GET /availability - Retrieve Availability
-description: Retrieve availability records for spaces by ID, space, or date
+title: Retrieve Availability object with GET method
+description: Retrieve availability records for spaces by ID, space, or date.
 tags:
   - api
   - availability
   - GET
   - retrieve
   - filter
-# vale  on
-# markdownlint-enable
 ---
 
-Use the `GET` method to access `/availability` resource data.
+# GET /availability
+
+Use the `GET` method to access `availability` resource data:
+
+* [GET /availability](#retrieve-all-availability-records) - Retrieves all availability records for all coliving and coworking spaces.
+
+* [GET /availability/{id}](#retrieve-an-availability-record-by-id) - Retrieves a single availability record by specified availability ID.
+
+* [GET /availability?spaceId={spaceId}](#retrieve-availability-by-space-id) - Retrieves a single availability record by specified space ID.
+
+* [GET /availability?date={date}](#retrieve-availability-by-date) - Retrieves availability record by specified date.
 
 ## Retrieve all availability records
 

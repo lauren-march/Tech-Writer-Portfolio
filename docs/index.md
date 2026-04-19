@@ -3,7 +3,7 @@ title: OpenSpot API Documentation
 description: API documentation for coliving and coworking space management
 tags:
   - home
-  - getting-started
+  - overview
 ---
 
 # OpenSpot API

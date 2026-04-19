@@ -10,13 +10,12 @@ use_directory_urls: true
 
 nav:
   - Home: index.md
-  - Overview:
-      - Getting Started: overview/getting-started.md
+  - Getting Started: overview/getting-started.md
   - Tutorials:
       - Add a New Space: tutorials/add-a-new-space.md
       - Check Availability: tutorials/find-space-by-location.md
       - Update Availability: tutorials/update-availability.md
-      - Delete a space: tutorials/delete-a-space.md
+      - Delete a Space: tutorials/delete-a-space.md
   - API Reference:
       - API Reference Guide: api-reference/api-reference-guide.md
       - Spaces:

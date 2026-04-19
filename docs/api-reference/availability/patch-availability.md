@@ -1,16 +1,14 @@
 ---
-# markdownlint-disable
-# vale  off
-title: PATCH /availability - Update Availability
-description: Partially update an existing availability record
+title: Update Availability using the PATCH method
+description: Partially update an existing availability record for a desired space.
 tags:
   - api
   - availability
   - PATCH
-  - update
-  # vale  on
-# markdownlint-enable
+  - update record
 ---
+
+# PATCH /availability
 
 Use the `PATCH` method to partially update an existing availability resource.
 
@@ -101,15 +99,15 @@ curl -X PATCH http://localhost:3000/availability/1 \
 
 ### Notes
 
-* Only the fields included in the request body will be updated
-* All other fields remain unchanged
-* The `id` field cannot be modified
-* Date must be in "YYYY-MM-DD" format if updating
-* `spaceId` must reference an existing space if updating
+* Only the fields included in the request body will be updated.
+* All other fields remain unchanged.
+* The `id` field cannot be modified.
+* Date must be in "YYYY-MM-DD" format if updating.
+* `spaceId` must reference an existing space if updating.
 
 #### PATCH vs PUT
 
 | Method | Use Case | Example |
 |--------|----------|---------|
-| **PATCH** | Update specific fields only | Change only available spots |
-| **PUT** | Replace entire resource | Update all fields at once |
+| **PATCH** | Update specific fields only. | Change only available spots. |
+| **PUT** | Replace entire resource. | Update all fields at once. |

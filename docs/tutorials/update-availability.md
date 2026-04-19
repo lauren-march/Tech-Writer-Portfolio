@@ -8,6 +8,8 @@ tags:
   - update
 ---
 
+# How to update Availability in the OpenSpot API
+
 In this tutorial, you'll learn how to partially update an availability object in the OpenSpot API JSON mock database. In order to only update a single or subset of properties for a resource instance, you'll need to use the `PATCH` HTTP method.
 
 The `PATCH` method modifies specified user-defined properties and updates the `availability` object. This is useful when you need to update only the available spots left without modifying other properties.

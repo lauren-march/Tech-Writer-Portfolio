@@ -1,11 +1,13 @@
 ---
-title: API Reference Guide
-description: Landing page for API references
+title: API Reference Guide for the OpenSpot API
+description: High-level overview of all OpenSpot API endpoints, HTTP methods, and base URL for the mock server.
 tags:
   - api
   - reference
   - overview
 ---
+
+# OpenSpot API Reference Guide
 
 This section provides a high-level reference for all endpoints in the OpenSpot API mock server. Each resource includes its own detailed page with request and response examples.
 

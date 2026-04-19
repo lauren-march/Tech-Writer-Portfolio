@@ -1,11 +1,13 @@
 ---
-title: Getting Started
-description: Get started with the OpenSpot API in just a few minutes
+title: Getting Started with OpenSpot API
+description: Install Node.js and JSON Server, download the OpenSpot mock database, and run your first API request in just a few minutes.
 tags:
   - getting-started
   - quickstart
   - tutorial
 ---
+
+# Getting Started Guide for OpenSpot API
 
 When working with the OpenSpot API locally, you will use **Node.js** and **JSON Server** to create a fully functional mock REST API powered by your OpenSpot JSON database file.
 
