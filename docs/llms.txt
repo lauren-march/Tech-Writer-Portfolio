@@ -1,0 +1,43 @@
+# OpenSpot API Documentation
+
+OpenSpot is a mock REST API for querying and managing coworking and coliving space data. It exposes two primary resources — `spaces` and `availability` — and is powered by JSON Server running locally on Node.js. This documentation is a technical writing portfolio project by Lauren March.
+
+Base URL: `http://localhost:3000`
+
+## Overview
+
+- [Home](https://lauren-march.github.io/Tech-Writer-Portfolio/): Introduction to the OpenSpot API, use cases, and links to key sections.
+- [Getting Started](https://lauren-march.github.io/Tech-Writer-Portfolio/overview/getting-started/): How to install Node.js and JSON Server, download the OpenSpot mock database file, and run a first GET request using cURL.
+
+## Tutorials
+
+- [Add a New Space](https://lauren-march.github.io/Tech-Writer-Portfolio/tutorials/add-a-new-space/): Step-by-step guide to creating a new space record using a POST request in Postman.
+- [Check Space Availability](https://lauren-march.github.io/Tech-Writer-Portfolio/tutorials/find-space-by-location/): How to query the availability resource to find open spots for a specific space and date.
+- [Update Space Availability](https://lauren-march.github.io/Tech-Writer-Portfolio/tutorials/update-availability/): How to update available spot counts using PATCH or PUT requests.
+- [Delete a Space](https://lauren-march.github.io/Tech-Writer-Portfolio/tutorials/delete-a-space/): How to remove a space record from the database using a DELETE request.
+
+## API Reference
+
+- [API Reference Guide](https://lauren-march.github.io/Tech-Writer-Portfolio/api-reference/api-reference-guide/): Overview of all endpoints, HTTP methods, and base URL. Covers GET, POST, PUT, PATCH, and DELETE for both resources.
+
+### Spaces
+
+The `spaces` resource represents coworking and coliving locations. Properties: `id` (integer), `name` (string), `location` (string, "City, Country" format), `pricePerHour` (number, USD), `capacity` (integer), `description` (string).
+
+- [Spaces Overview](https://lauren-march.github.io/Tech-Writer-Portfolio/api-reference/spaces/spaces/): Resource structure, available operations, and common use cases for the spaces resource.
+- [GET /spaces](https://lauren-march.github.io/Tech-Writer-Portfolio/api-reference/spaces/get-space/): Retrieve all spaces or filter by ID or location.
+- [POST /spaces](https://lauren-march.github.io/Tech-Writer-Portfolio/api-reference/spaces/post-space/): Create a new space record.
+- [PATCH /spaces](https://lauren-march.github.io/Tech-Writer-Portfolio/api-reference/spaces/patch-space/): Partially update an existing space.
+- [PUT /spaces](https://lauren-march.github.io/Tech-Writer-Portfolio/api-reference/spaces/put-space/): Fully replace an existing space record.
+- [DELETE /spaces](https://lauren-march.github.io/Tech-Writer-Portfolio/api-reference/spaces/delete-space/): Remove a space record from the database.
+
+### Availability
+
+The `availability` resource tracks available spots for a given space on a given date. Properties: `id` (integer), `spaceId` (integer, references spaces.id), `availableSpots` (integer), `date` (string, "YYYY-MM-DD" format).
+
+- [Availability Overview](https://lauren-march.github.io/Tech-Writer-Portfolio/api-reference/availability/availability/): Resource structure, available operations, and common use cases for the availability resource.
+- [GET /availability](https://lauren-march.github.io/Tech-Writer-Portfolio/api-reference/availability/get-availability/): Retrieve all availability records or filter by spaceId or date.
+- [POST /availability](https://lauren-march.github.io/Tech-Writer-Portfolio/api-reference/availability/post-availability/): Create a new availability record for a space and date.
+- [PATCH /availability](https://lauren-march.github.io/Tech-Writer-Portfolio/api-reference/availability/patch-availability/): Partially update an existing availability record.
+- [PUT /availability](https://lauren-march.github.io/Tech-Writer-Portfolio/api-reference/availability/put-availability/): Fully replace an existing availability record.
+- [DELETE /availability](https://lauren-march.github.io/Tech-Writer-Portfolio/api-reference/availability/delete-availability/): Remove an availability record from the database.
